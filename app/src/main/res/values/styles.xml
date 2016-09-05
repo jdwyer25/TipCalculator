@@ -12,5 +12,9 @@
 
     </style>
 
+    <style name="Button">
+        <item name="android:background">#1d2b88</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 
-</resources>
+    </resources>
