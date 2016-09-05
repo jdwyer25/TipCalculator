@@ -16,7 +16,7 @@
             android:background="@color/colorPrimaryDark"
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
-            android:text="@string/tax_calculator"
+            android:text="@string/tip_calculator"
             android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff" />

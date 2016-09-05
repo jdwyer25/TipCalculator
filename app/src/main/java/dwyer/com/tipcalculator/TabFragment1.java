@@ -153,11 +153,11 @@ public class TabFragment1 extends Fragment implements View.OnClickListener {
     private boolean ValidateValues() {
 
         if(totalBill.getText() == null || totalBill.getText().toString().equals("")) {
-            Toast.makeText(getActivity(), "Enter Bill Amount.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string.no_bill_amount, Toast.LENGTH_SHORT).show();
             return false;
         }
         if(numPeople.getText() == null || numPeople.getText().toString().equals("")){
-            Toast.makeText(getActivity(), "Enter Number of People to split check.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string.no_number_of_people, Toast.LENGTH_SHORT).show();
             return false;
         }
 

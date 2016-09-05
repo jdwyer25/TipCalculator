@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-0959410565463062~3319700510");
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice("990D881316626793E9B06C55C545B512").build();
-        //AdRequest adRequest = new AdRequest.Builder().build();
+        //AdRequest adRequest = new AdRequest.Builder().addTestDevice("990D881316626793E9B06C55C545B512").build();
+        AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Tip Calculator"));
-        tabLayout.addTab(tabLayout.newTab().setText("Reverse Calculator"));
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.tip_calculator)));
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.reverse_calculator)));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         // Get the ViewPager and set it's PagerAdapter so that it can display items

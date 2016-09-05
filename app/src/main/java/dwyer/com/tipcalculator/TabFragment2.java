@@ -111,11 +111,11 @@ public class TabFragment2 extends Fragment implements View.OnClickListener{
     private boolean ValidateValues() {
 
         if(txtBillAmount.getText() == null || txtBillAmount.getText().toString().equals("")){
-            Toast.makeText(getActivity(), "Enter Bill Amount.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string.no_bill_amount, Toast.LENGTH_SHORT).show();
             return false;
         }
         if(txtTipAmount.getText() == null || txtTipAmount.getText().toString().equals("")) {
-            Toast.makeText(getActivity(), "Enter Tip Amount.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string.no_tip_amount, Toast.LENGTH_SHORT).show();
             return false;
         }
 

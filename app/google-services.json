@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "747609416104",
+    "firebase_url": "https://admob-app-id-3319700510.firebaseio.com",
+    "project_id": "admob-app-id-3319700510",
+    "storage_bucket": "admob-app-id-3319700510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747609416104:android:7d336c6959c6ab2a",
+        "android_client_info": {
+          "package_name": "dwyer.com.tipcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747609416104-i5pvc6panrrd6p98ues86j9rc3rapppp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg-weMYVb_H2Lt7NBuaI1i9tGAOVwutlE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
