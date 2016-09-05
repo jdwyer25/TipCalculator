@@ -6,9 +6,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
-        android:focusableInTouchMode="true">
-
+        android:focusableInTouchMode="true"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textView"
@@ -24,10 +23,10 @@
 
         <LinearLayout
             android:id="@+id/ll1"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -107,14 +106,15 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="right"
                 android:background="@drawable/textinputborder"
+                android:gravity="right"
                 android:inputType="number" />
 
         </LinearLayout>
 
         <Button
             android:id="@+id/btnTipCalc"
+            style="@style/Button"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_alignParentRight="true"
@@ -199,6 +199,7 @@
 
         <Button
             android:id="@+id/btnReset"
+            style="@style/Button"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_alignParentRight="true"
